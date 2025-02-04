@@ -78,5 +78,3 @@ func azure functionapp publish netflix-catalog-func
 Acesse a API no navegador ou via Postman:
 
 curl https://netflix-catalog-func.azurewebsites.net/api/CatalogFunction
-Conclusão
-Este projeto fornece uma API escalável para gerenciar o catálogo da Netflix utilizando Azure Functions e banco de dados SQL. Você pode expandir adicionando autenticação, filtros e mais funcionalidades.

@@ -1,4 +1,4 @@
-```python
+#python
 import logging
 import azure.functions as func
 import json
@@ -28,46 +28,46 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         json.dumps(catalog),
         mimetype="application/json"
     )
-```
+#
 
-```sql
+#sql
 CREATE TABLE Catalog (
     id INT PRIMARY KEY IDENTITY(1,1),
     title NVARCHAR(255),
     year INT
 );
-```
+#
 
-```bash
+#bash
 pip install azure-functions azure-functions-http
 pip install pyodbc
-```
+#
 
-```bash
+#bash
 func init netflix-catalog --python
 cd netflix-catalog
-```
+#
 
-```bash
+#bash
 func new --name CatalogFunction --template "HTTP trigger" --authlevel "anonymous"
-```
+#
 
-```bash
+#bash
 az login
-```
+#
 
-```bash
+#bash
 az group create --name NetflixCatalogGroup --location eastus
-```
+#
 
-```bash
+#bash
 az functionapp create --resource-group NetflixCatalogGroup --consumption-plan-location eastus --runtime python --functions-version 4 --name netflix-catalog-func --storage-account yourstorageaccount
-```
+#
 
-```bash
+#bash
 func azure functionapp publish netflix-catalog-func
-```
+#
 
-```bash
+#bash
 curl https://netflix-catalog-func.azurewebsites.net/api/CatalogFunction
-```
+#
