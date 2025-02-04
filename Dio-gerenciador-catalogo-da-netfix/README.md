@@ -1,4 +1,6 @@
-# Projeto para desenvolvimento e treinamento utilizando ferrramentas azure, implementar um gerenciador de catálogos  de filmes semelhantes aos de sistema usados site como exemplo Netflix. desenvolver dentro da plataforma Microsoft Azure, utilizaro banco de dados Cosmos DB.
+<h1 align="center">Repositório para Gerenciador catálogolo de vídeos</h1>
+
+Projeto para desenvolvimento e treinamento utilizando ferrramentas azure, implementar um gerenciador de catálogos  de filmes semelhantes aos de sistema usados site como exemplo Netflix. desenvolver dentro da plataforma Microsoft Azure, utilizaro banco de dados Cosmos DB.
 
 ## Feramentas utilizadas:
 Platforma Microsofgt Azure
@@ -29,5 +31,17 @@ filmes: json
     "Detalhes": "Ganhador de um Oscar",
     "tipo": "Aventura"
 }
+
+Criar 5 azure functions:
+
+#### fnPostDataStorage video.
+#### fnPostDtaSotarge Thumb.
+#### fnPostDatabase -> CosmoDB.
+#### fnGetAllMovies -> CosmosDB.
+#### fnGetMovieDetail -> CosmosDB.
+
+## Link para o Bootcamp
+Desenvolver o Front End para do site utilizando:
+[Streamion:] (https://streamion.io/en/home/)
 
 
