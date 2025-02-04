@@ -49,7 +49,7 @@ cadastro no Azure Devops
 
 Desenvolver o Front End para do site utilizando:  
 Link para criação front end [Streamion](https://streamion.io/en/home/).  
-Para novos conteúdos [Daniel Anrade](https://github.com/daniel13developer).
+Para novos conteúdos [Daniel Andrade](https://github.com/daniel13developer).
 
 
 
