@@ -1,0 +1,36 @@
+# # senha padrao do seleniumhub é :secret
+services:
+  database:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: database
+    ports:
+      - "1433:1433"
+    volumes:
+    - dbdata:/var/opt/mssql
+    environment:
+      MSSQL_TCP_PORT: 1433
+      MSSQL_SA_PASSWORD: "P@55w0rd"
+      ACCEPT_EULA: "Y"
+    networks:
+      - identityNetwork
+
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: azurite
+    ports:
+      - "10000:10000" # Porta Blob
+      - "10001:10001" # Porta Queue
+      - "10002:10002" # Porta Table
+    volumes:
+      - azurite-data:/data
+    networks:
+      - identityNetwork
+    command: "azurite --blobHost 0.0.0.0 --queueHost 0.0.0.0 --tableHost 0.0.0.0"
+
+networks:
+  identityNetwork:
+    driver: bridge
+    
+volumes:  
+  azurite-data:
+  dbdata:

@@ -1,0 +1,61 @@
+.curve {
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    margin: auto;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: solid 0.25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    position: relative; /* Necessário para garantir que o ::after seja posicionado em relação ao .curve */
+  }
+  
+  .curve::before {
+    content: '';
+    position: absolute;
+    top: -0.1rem;  /* Ajuste aqui se necessário */
+    left: 0;
+    width: 100%; /* Definir a largura para o pseudoelemento */
+    height: 3px; /* Ajustar a altura */
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border: solid 0.15rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    visibility: visible; /* Verifique se o pseudoelemento não está oculto */
+  }
+  
+  .curve-container {
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+  }
+  
+  @media (min-width: 960px) {
+    .curve {
+      width: 150%;
+      left: -25%;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .curve {
+      width: 180%;
+      left: -40%;
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .curve {
+      width: 200%;
+      left: -50%;
+    }
+  }
+  

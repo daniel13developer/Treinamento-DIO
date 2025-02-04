@@ -1,0 +1,13 @@
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\bin\Debug\net8.0\Netflix-Faker.Domain.deps.json
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\bin\Debug\net8.0\Netflix-Faker.Domain.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\bin\Debug\net8.0\Netflix-Faker.Domain.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.csproj.AssemblyReference.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.AssemblyInfoInputs.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.AssemblyInfo.cs
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.csproj.CoreCompileInputs.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.sourcelink.json
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\refint\Netflix-Faker.Domain.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\Netflix-Faker.Domain.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Domain\obj\Debug\net8.0\ref\Netflix-Faker.Domain.dll

@@ -1,0 +1,16 @@
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\bin\Debug\net8.0\Netflix-Faker.Infrastructure.deps.json
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\bin\Debug\net8.0\Netflix-Faker.Infrastructure.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\bin\Debug\net8.0\Netflix-Faker.Infrastructure.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\bin\Debug\net8.0\Netflix-Faker.Domain.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\bin\Debug\net8.0\Netflix-Faker.Domain.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.csproj.AssemblyReference.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.AssemblyInfoInputs.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.AssemblyInfo.cs
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.csproj.CoreCompileInputs.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.sourcelink.json
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-.96AE3084.Up2Date
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\refint\Netflix-Faker.Infrastructure.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\Netflix-Faker.Infrastructure.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Infrastructure\obj\Debug\net8.0\ref\Netflix-Faker.Infrastructure.dll

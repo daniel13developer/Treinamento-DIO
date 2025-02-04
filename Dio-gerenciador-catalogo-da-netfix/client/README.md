@@ -1,0 +1,1 @@
+# projeto de crição de gerenciar de NetFix via plataforma Azure.

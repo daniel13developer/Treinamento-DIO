@@ -1,0 +1,16 @@
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\bin\Debug\net8.0\Netflix-Faker.Application.deps.json
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\bin\Debug\net8.0\Netflix-Faker.Application.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\bin\Debug\net8.0\Netflix-Faker.Application.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\bin\Debug\net8.0\Netflix-Faker.Domain.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\bin\Debug\net8.0\Netflix-Faker.Domain.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.csproj.AssemblyReference.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.AssemblyInfoInputs.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.AssemblyInfo.cs
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.csproj.CoreCompileInputs.cache
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.sourcelink.json
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-.F446A7BE.Up2Date
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\refint\Netflix-Faker.Application.dll
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\Netflix-Faker.Application.pdb
+G:\Projetos\Netflix-Faker\server\Netflix-Faker\Netflix-Faker.Application\obj\Debug\net8.0\ref\Netflix-Faker.Application.dll
