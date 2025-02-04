@@ -46,7 +46,12 @@ cadastro no Azure Devops
 #### fnGetMovieDetail -> CosmosDB.
 
 ## Link para o Bootcamp
-Desenvolver o Front End para do site utilizando:
-[Streamion:] (https://streamion.io/en/home/)
+
+Desenvolver o Front End para do site utilizando:  
+Link para criação front end [Streamion](https://streamion.io/en/home/).  
+Para novos conteúdos [Daniel Anrade](https://github.com/daniel13developer).
+
+
+
 
 
