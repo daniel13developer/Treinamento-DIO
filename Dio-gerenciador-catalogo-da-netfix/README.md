@@ -22,17 +22,21 @@ cadastro no Azure Devops
 * Create an Azure Cosmos DB (NOSQL) // Account Name: cosmosDBdiofix.
 * Create a sorage account // name: stadioflix001 para teste em advanced selecionar permitir Allow anonymous.
 
-### Estrutura a ser armazenada:
-filmes: json
+
+# filmes:
+### Estrutura a ser armazenada: JSON
+
+```json
 {
-    "titulo: "A volta dos que não foram",
-    "video": "stadioflix/vodeo/mp4",
-    "thub":  "stadioflix/img/png",
-    "Detalhes": "Ganhador de um Oscar",
-    "tipo": "Aventura"
+  "titulo": "A volta dos que não foram",
+  "video": "stadioflix/video/mp4",
+  "thumb": "stadioflix/img/png",
+  "detalhes": "Ganhador de um Oscar",
+  "tipo": "Aventura"
 }
 
-Criar 5 azure functions:
+```
+##Criar 5 azure functions:
 
 #### fnPostDataStorage video.
 #### fnPostDtaSotarge Thumb.
