@@ -1,20 +1,33 @@
-# Projeto e treinamento utilizando ferrramenta azure que implementa um gerenciador de catálogos da semelhantes as sistema usados no site Netflix utilizando Azure Functions e um banco de dados SQL. A aplicação permite adicionar, listar, atualizar e remover filmes do catálogo, oferecendo uma API escalável e baseada em cloud computing.
+# Projeto para desenvolvimento e treinamento utilizando ferrramentas azure, implementar um gerenciador de catálogos  de filmes semelhantes aos de sistema usados site como exemplo Netflix. desenvolver dentro da plataforma Microsoft Azure, utilizaro banco de dados Cosmos DB.
 
+## Feramentas utilizadas:
+Platforma Microsofgt Azure
+Microsoft Visual studio
 
-### Feramentas utilizadas:
+### instalações necessárias
+Azure Functions Core Tools
 
 * Configuração do Ambiente
 ### Pré-requisitos
 Conta na Azure
-cadastro no Azure Devopss
-Azure Functions Core Tools
-microsoft Visual studio
-Banco de dados SQL (Azure SQL Database ou PostgreSQL)
+cadastro no Azure Devops
 
+### recursos utilizados e criados na plataforma Microsoft Azure
 
-### Instale as ferramentas necessárias:
+* Create a Resource Group name: DIOFliX.
+* Create API Managemnet service //name: apim-dioflix.
+// Escolher no de consumo recurso menor consumo para testes.
+* Create an Azure Cosmos DB (NOSQL) // Account Name: cosmosDBdiofix.
+* Create a sorage account // name: stadioflix001 para teste em advanced selecionar permitir Allow anonymous.
 
+### Estrutura a ser armazenada:
+filmes: json
+{
+    "titulo: "A volta dos que não foram",
+    "video": "stadioflix/vodeo/mp4",
+    "thub":  "stadioflix/img/png",
+    "Detalhes": "Ganhador de um Oscar",
+    "tipo": "Aventura"
+}
 
-
-### Na plataforma Microsoft Azure
 
