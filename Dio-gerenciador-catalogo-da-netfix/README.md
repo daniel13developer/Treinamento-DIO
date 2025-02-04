@@ -24,7 +24,7 @@ cadastro no Azure Devops
 
 
 # filmes:
-### Estrutura a ser armazenada: JSON
+### Estrutura a ser armazenada JSON
 
 ```json
 {
@@ -36,10 +36,11 @@ cadastro no Azure Devops
 }
 
 ```
-##Criar 5 azure functions:
+## Criar 3 Azure functions:
 
 #### fnPostDataStorage video.
 #### fnPostDtaSotarge Thumb.
+
 #### fnPostDatabase -> CosmoDB.
 #### fnGetAllMovies -> CosmosDB.
 #### fnGetMovieDetail -> CosmosDB.
