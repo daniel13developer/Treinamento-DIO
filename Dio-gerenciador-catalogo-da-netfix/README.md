@@ -36,20 +36,25 @@ cadastro no Azure Devops
 }
 
 ```
-## Criar 3 Azure functions:
+## Criar Azure functions:
 
 #### fnPostDataStorage video.
 #### fnPostDtaSotarge Thumb.
-
 #### fnPostDatabase -> CosmoDB.
 #### fnGetAllMovies -> CosmosDB.
 #### fnGetMovieDetail -> CosmosDB.
 
-## Link para o Bootcamp
+### Link para o Bootcamp
+
+Para novos conteúdos [DIO](https://dio.me).
+
+### Links novos conteúdos e desenvolvimento
 
 Desenvolver o Front End para do site utilizando:  
 Link para criação front end [Streamion](https://streamion.io/en/home/).  
 Para novos conteúdos [Daniel Andrade](https://github.com/daniel13developer).
+
+
 
 
 
