@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        .memory-game {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            grid-gap: 10px;
+            margin: 50px auto;
+            width: 450px;
+        }
+        .card {
+            width: 100px;
+            height: 100px;
+            background-color: #bada55;
+            border: 2px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .card img {
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        .card.flipped img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo da Memória</h1>
+    <div class="memory-game">
+        <!-- As cartas do jogo serão criadas aqui -->
+    </div>
+
+    <script>
+        
+        const images = [
+            './imagens/imagem1.jpg', './imagens/imagem2.jpg', './imagens/imagem3.jpg', './imagens/imagem4.jpg',
+            './imagens/imagem1.jpg', './imagens/imagem2.jpg', './imagens/imagem3.jpg', './imagens/imagem4.jpg'
+        ]; // Substitua com suas próprias imagens da Pixar
+
+        const gameContainer = document.querySelector('.memory-game');
+        const cards = [];
+
+        // Embaralhar as imagens
+        images.sort(() => 0.5 - Math.random());
+
+        // Criar as cartas
+        images.forEach(image => {
+            const card = document.createElement('div');
+            card.classList.add('card');
+            card.innerHTML = `<img src="${image}" alt="Imagem">`;
+            gameContainer.appendChild(card);
+            cards.push(card);
+        });
+
+        let flippedCards = [];
+        let lockBoard = false;
+
+        // Função para virar as cartas
+        function flipCard(card) {
+            if (lockBoard || flippedCards.includes(card)) return;
+            card.classList.add('flipped');
+            flippedCards.push(card);
+
+            if (flippedCards.length === 2) {
+                checkMatch();
+            }
+        }
+
+        // Verificar se as cartas combinam
+        function checkMatch() {
+            lockBoard = true;
+            const [card1, card2] = flippedCards;
+
+            if (card1.innerHTML === card2.innerHTML) {
+                flippedCards = [];
+                lockBoard = false;
+            } else {
+                setTimeout(() => {
+                    card1.classList.remove('flipped');
+                    card2.classList.remove('flipped');
+                    flippedCards = [];
+                    lockBoard = false;
+                }, 1000);
+            }
+        }
+
+        // Adicionar evento de clique às cartas
+        cards.forEach(card => {
+            card.addEventListener('click', () => flipCard(card));
+        });
+    </script>
+</body>
+</html>

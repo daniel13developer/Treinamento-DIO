@@ -9,7 +9,15 @@
 * resposta esta no arquivo de saida com nome output.
 
 
+3) Crie uma jogo da memoria da velha com imagens aleatorias de desenho pixar em html
+
+* Resposta esta no arquivo de saida com nome output nome pasta jogo-da-memoria.
+* abra o arquivo index em um mavegador e comece a jogar.
+
+
 ## 🔍 Refefências
 - [Digital Innovation One](https://www.dio.me).
 - [Documentos Git](https://git-scm.com/docs)
 - [Documentos GitHub](https://docs.github.com).
+
+
