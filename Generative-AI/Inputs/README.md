@@ -2,8 +2,11 @@
 
 1) Primeira pergunta para para IA Copilot Microsoft  para o prompt.
 
-Resposta adicionada em pdf na pasta Output com o nome do arquivo Resposta- Prompt-1.pdf
+* Resposta adicionada em pdf na pasta Output com o nome do arquivo Resposta- Prompt-1.pdf
 
+2) crie uma imagem de Galo com uma trofeu nas nuvens.
+
+* resposta esta no arquivo de saida com nome output.
 
 
 ## 🔍 Refefências
